@@ -1,10 +1,10 @@
 export const siteConfig = {
   companyName: "Plinth & Co",
   tagline: "HOMES",
-  phone: "+91 98765 43210",
+  phone: "+91 85115 01237",
   email: "info@plinthandco.com",
   address: "123 Luxury Lane, Skyline District, City",
-  whatsapp: "+919876543210",
+  whatsapp: "+918511501237",
   heroVideoUrl: "/videos/hero.mp4",
   watchFilmUrl: "/videos/watch-film.mp4", 
   heroSlides: [
