@@ -21,12 +21,12 @@ export function Footer() {
             <Link href="/" className="inline-block">
               <div className="relative w-96 h-36">
                 <Image 
-                  src="/images/logo.webp" 
+                  src="/logos/logo.webp" 
                   alt={`${siteConfig.companyName} Logo`}
                   fill
                   loading="lazy"
                   sizes="(max-width: 768px) 192px, 192px"
-                  className="object-contain object-left"
+                  className="object-contain object-left mix-blend-multiply"
                 />
               </div>
             </Link>
@@ -43,7 +43,7 @@ export function Footer() {
               <li><Link href="/projects" className="hover:text-black transition-colors">Projects</Link></li>
               <li><Link href="/about" className="hover:text-black transition-colors">About Us</Link></li>
               <li><Link href="/awards" className="hover:text-black transition-colors">Awards</Link></li>
-              <li><Link href="/brand" className="hover:text-black transition-colors">One Plinth</Link></li>
+              <li><Link href="/about" className="hover:text-black transition-colors">Kamal Daxini</Link></li>
               <li><Link href="/rentals" className="hover:text-black transition-colors">Rentals</Link></li>
             </ul>
           </div>
@@ -103,7 +103,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-black/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] tracking-[0.1em] font-bold text-black/50 uppercase">
-          <p>© {new Date().getFullYear()} {siteConfig.companyName.toUpperCase()} GROUP.</p>
+          <p>© {new Date().getFullYear()} {siteConfig.companyName.toUpperCase()} REALTOR.</p>
           <div className="flex space-x-8">
             <Link href="/privacy" className="hover:text-black transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-black transition-colors">Terms of Use</Link>

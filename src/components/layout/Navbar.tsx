@@ -44,6 +44,32 @@ export function Navbar() {
 
   return (
     <>
+      {/* Centered Logo (outside header to fix mix-blend-mode stacking context issues) */}
+      {!isMenuOpen && (
+        <Link 
+          href="/" 
+          className={`fixed top-2 md:top-0 left-1/2 -translate-x-1/2 z-[60] h-20 md:h-24 flex items-center justify-center transition-all duration-300 ${
+            isScrolled ? "mix-blend-multiply" : "mix-blend-screen"
+          }`}
+        >
+          <div className="flex flex-col items-center">
+            <div className="relative w-56 md:w-80 h-16 md:h-24 transition-all duration-300">
+              <Image 
+                src="/logos/logo.webp" 
+                alt="Kamal Daxini Logo" 
+                fill
+                sizes="(max-width: 768px) 224px, 320px"
+                className="object-contain"
+                style={{
+                  filter: isScrolled ? "none" : "invert(1) hue-rotate(180deg) brightness(1.5)"
+                }}
+                priority
+              />
+            </div>
+          </div>
+        </Link>
+      )}
+
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 overflow-hidden ${
           isScrolled
@@ -65,22 +91,6 @@ export function Navbar() {
               <span className="hidden md:block text-[10px] tracking-[0.3em] font-bold opacity-70 group-hover:opacity-100 transition-opacity">MENU</span>
             </button>
           )}
-
-          {/* Centered Logo */}
-          <Link href="/" className="absolute left-1/2 -translate-x-1/2 z-[60] w-max">
-            <div className="flex flex-col items-center">
-              <div className="relative w-40 md:w-56 h-12 md:h-16">
-                <Image 
-                  src="/images/logo.webp" 
-                  alt="Plinth & Co Logo" 
-                  fill
-                  sizes="(max-width: 768px) 160px, 224px"
-                  className="object-contain"
-                  priority
-                />
-              </div>
-            </div>
-          </Link>
 
           {/* Right Side Tools */}
           <div className="flex items-center gap-6 md:gap-10 z-[60]">
@@ -224,7 +234,7 @@ export function Navbar() {
               className="p-6 md:px-24 md:py-8 flex flex-col sm:flex-row justify-between items-center gap-8 border-t border-black/5 relative z-20 bg-[#F5F0E8]"
             >
               <div className="flex flex-col gap-1 items-center sm:items-start">
-                <p className="text-[8px] md:text-[9px] tracking-[0.3em] text-black/40 font-bold uppercase">© 2026 PLINTH & CO HOMES</p>
+                <p className="text-[8px] md:text-[9px] tracking-[0.3em] text-black/40 font-bold uppercase">© 2026 KAMAL DAXINI REALTOR</p>
                 <div className="flex gap-6">
                   <Link href="/privacy" className="text-[8px] md:text-[9px] tracking-[0.2em] font-bold text-black/30 hover:text-black transition-colors uppercase">Privacy</Link>
                   <Link href="/terms" className="text-[8px] md:text-[9px] tracking-[0.2em] font-bold text-black/30 hover:text-black transition-colors uppercase">Terms</Link>

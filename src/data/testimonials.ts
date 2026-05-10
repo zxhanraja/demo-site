@@ -9,7 +9,7 @@ export const testimonials = [
   },
   {
     id: 2,
-    quote: "Working with Plinth and Co Homes was a seamless experience. They delivered our commercial space ahead of schedule.",
+    quote: "Working with Kamal Daxini was a seamless experience. They found us the perfect commercial space ahead of schedule.",
     name: "Priya Sharma",
     designation: "Business Owner",
     project: "The Summit",

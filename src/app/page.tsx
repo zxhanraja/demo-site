@@ -8,8 +8,8 @@ import { SkylineSection } from "@/components/sections/SkylineSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 
 export const metadata: Metadata = {
-  title: "Plinth & Co Homes | Premium Real Estate in Vadodara",
-  description: "Experience luxury living with Plinth & Co Homes. We offer premium apartments, penthouses, and commercial spaces in Vadodara's most sought-after locations.",
+  title: "Kamal Daxini Realtor | Luxury Real Estate Advisor in Vadodara",
+  description: "Bespoke real estate services and luxury properties curated by Kamal Daxini. Experience premium living in Vadodara's most sought-after locations.",
 };
 
 export default function Home() {

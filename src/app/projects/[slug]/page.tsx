@@ -15,10 +15,10 @@ export async function generateMetadata({
   if (!project) return { title: "Project Not Found" };
 
   return {
-    title: `${project.name} | Plinth & Co Homes`,
+    title: `${project.name} | Kamal Daxini Realtor`,
     description: `${project.name} - ${project.category} project in ${project.location}. Featuring ${project.type.join(", ")} with ${project.carpetArea} carpet area.`,
     openGraph: {
-      title: `${project.name} | Plinth & Co Homes`,
+      title: `${project.name} | Kamal Daxini Realtor`,
       description: `Explore ${project.name} in ${project.location}. ${project.status} luxury development.`,
       images: [project.thumbnail],
     },

@@ -22,37 +22,37 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Plinth & Co Homes | Luxury Real Estate Developer",
-    template: "%s | Plinth & Co Homes",
+    default: "Kamal Daxini Realtor | Luxury Real Estate Advisor",
+    template: "%s | Kamal Daxini Realtor",
   },
-  description: "Premium apartments, penthouses & commercial spaces crafted for modern living in Vadodara.",
-  keywords: ["luxury real estate", "Vadodara", "premium apartments", "penthouses", "Plinth and Co", "real estate developer"],
-  authors: [{ name: "Plinth & Co Homes" }],
-  metadataBase: new URL("https://plinthandco.com"), // Apna actual domain yahan lagao
+  description: "Bespoke real estate services and luxury properties curated by Kamal Daxini in Vadodara.",
+  keywords: ["luxury real estate", "Vadodara", "Kamal Daxini", "realtor", "premium properties", "real estate advisor"],
+  authors: [{ name: "Kamal Daxini Realtor" }],
+  metadataBase: new URL("https://kamaldaxini.com"), // Updated domain placeholder
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://plinthandco.com",
-    siteName: "Plinth & Co Homes",
-    title: "Plinth & Co Homes | Luxury Real Estate Developer",
-    description: "Premium apartments, penthouses & commercial spaces crafted for modern living in Vadodara.",
+    url: "https://kamaldaxini.com",
+    siteName: "Kamal Daxini Realtor",
+    title: "Kamal Daxini Realtor | Luxury Real Estate Advisor",
+    description: "Bespoke real estate services and luxury properties curated by Kamal Daxini in Vadodara.",
     images: [
       {
-        url: "/images/logo.webp",
+        url: "/logos/logo.webp",
         width: 800,
         height: 400,
-        alt: "Plinth & Co Homes",
+        alt: "Kamal Daxini Realtor",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Plinth & Co Homes | Luxury Real Estate Developer",
-    description: "Premium apartments, penthouses & commercial spaces crafted for modern living in Vadodara.",
+    title: "Kamal Daxini Realtor | Luxury Real Estate Advisor",
+    description: "Bespoke real estate services and luxury properties curated by Kamal Daxini in Vadodara.",
   },
   icons: {
-    icon: "/logos/logo2.svg",
-    apple: "/logos/logo2.svg",
+    icon: "/logos/logo.webp",
+    apple: "/logos/logo.webp",
   },
 };
 

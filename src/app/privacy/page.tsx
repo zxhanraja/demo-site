@@ -3,8 +3,8 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Plinth & Co Homes",
-  description: "Read the Privacy Policy for Plinth & Co Homes. Learn how we collect, use, and protect your personal information.",
+  title: "Privacy Policy | Kamal Daxini Realtor",
+  description: "Read the Privacy Policy for Kamal Daxini Realtor. Learn how we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPage() {
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-white text-2xl mb-6 font-serif">Introduction</h2>
               <p>
-                At Plinth and Co Homes, we are committed to protecting your privacy and ensuring the security of your personal information.
+                At Kamal Daxini Realtor, we are committed to protecting your privacy and ensuring the security of your personal information.
                 This Privacy Policy outlines how we collect, use, and safeguard the data you provide to us through our website and services.
               </p>
             </section>
@@ -61,7 +61,7 @@ export default function PrivacyPage() {
               <h2 className="text-white text-2xl mb-6 font-serif">Your Rights</h2>
               <p>
                 You have the right to access, update, or request the deletion of your personal information at any time.
-                Please contact us at info@plinthandco.com for any privacy-related requests.
+                Please contact us at info@kamaldaxini.com for any privacy-related requests.
               </p>
             </section>
 

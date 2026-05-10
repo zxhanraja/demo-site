@@ -1,9 +1,9 @@
 export const siteConfig = {
-  companyName: "Plinth & Co",
-  tagline: "HOMES",
+  companyName: "Kamal Daxini",
+  tagline: "REALTOR",
   phone: "+91 85115 01237",
-  email: "info@plinthandco.com",
-  address: "123 Luxury Lane, Skyline District, City",
+  email: "info@kamaldaxini.com",
+  address: "Luxury Real Estate Advisor, Vadodara",
   whatsapp: "+918511501237",
   heroVideoUrl: "/videos/hero.mp4",
   watchFilmUrl: "/videos/watch-film.mp4", 

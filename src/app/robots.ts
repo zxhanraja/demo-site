@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://plinthandco.com"; // Apna actual domain yahan lagao
+  const baseUrl = "https://kamaldaxini.com"; // Updated domain placeholder
 
   return {
     rules: {

@@ -3,8 +3,8 @@ import { projects } from "@/data/projects";
 import { ProjectCard } from "@/components/ui/ProjectCard";
 
 export const metadata: Metadata = {
-  title: "All Projects | Plinth & Co Homes",
-  description: "Explore all luxury residential and commercial developments by Plinth & Co Homes in Vadodara — from ultra-luxury penthouses to premium commercial spaces.",
+  title: "All Projects | Kamal Daxini Realtor",
+  description: "Explore all luxury residential and commercial developments curated by Kamal Daxini Realtor in Vadodara.",
 };
 
 export default function ProjectsPage() {

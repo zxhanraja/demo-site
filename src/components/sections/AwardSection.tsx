@@ -28,7 +28,7 @@ export function AwardSection() {
             
             <div className="relative w-full h-full rounded-sm overflow-hidden shadow-2xl shadow-black/10 transition-transform duration-500 hover:scale-[1.02] bg-white">
               <Image
-                src="/images/award.webp"
+                src="/images/projects/award.webp"
                 alt="Hurun Award Certificate"
                 fill
                 priority

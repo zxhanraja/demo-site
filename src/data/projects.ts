@@ -60,9 +60,9 @@ export const projects = [
     priceOnRequest: false,
   },
   {
-    id: "plinth-plaza",
-    name: "Plinth Plaza",
-    slug: "plinth-plaza",
+    id: "daxini-plaza",
+    name: "Daxini Plaza",
+    slug: "daxini-plaza",
     status: "Under Construction",
     category: "Commercial",
     type: ["Retail", "Office"],

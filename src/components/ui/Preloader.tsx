@@ -116,8 +116,8 @@ export function Preloader() {
         <div className="text-center mb-12 flex justify-center w-full">
           <div className="relative w-80 md:w-[32rem] h-28 md:h-44">
             <Image
-              src="/images/logo.webp"
-              alt="Plinth & Co Logo"
+              src="/logos/logo.webp"
+              alt="Kamal Daxini Logo"
               fill
               sizes="(max-width: 768px) 320px, 512px"
               className="object-contain mix-blend-multiply"

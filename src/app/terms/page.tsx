@@ -3,8 +3,8 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Plinth & Co Homes",
-  description: "Read the Terms of Service for Plinth & Co Homes, a luxury real estate developer in Vadodara.",
+  title: "Terms of Service | Kamal Daxini Realtor",
+  description: "Read the Terms of Service for Kamal Daxini Realtor, a luxury real estate advisor in Vadodara.",
 };
 
 export default function TermsPage() {
@@ -28,7 +28,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-white text-2xl mb-6 font-serif">Agreement to Terms</h2>
               <p>
-                By accessing or using the Plinth and Co Homes website, you agree to be bound by these Terms of Service
+                By accessing or using the Kamal Daxini Realtor website, you agree to be bound by these Terms of Service
                 and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using this site.
               </p>
             </section>
@@ -36,7 +36,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-white text-2xl mb-6 font-serif">Use License</h2>
               <p>
-                Permission is granted to temporarily download one copy of the materials (information or software) on Plinth and Co Homes&apos;
+                Permission is granted to temporarily download one copy of the materials (information or software) on Kamal Daxini Realtor&apos;s
                 website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title.
               </p>
             </section>
@@ -44,7 +44,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-white text-2xl mb-6 font-serif">Disclaimer</h2>
               <p>
-                The materials on Plinth and Co Homes&apos; website are provided on an &apos;as is&apos; basis. Plinth and Co Homes makes no warranties,
+                The materials on Kamal Daxini Realtor&apos;s website are provided on an &apos;as is&apos; basis. Kamal Daxini Realtor makes no warranties,
                 expressed or implied, and hereby disclaims and negates all other warranties including, without limitation,
                 implied warranties or conditions of merchantability.
               </p>
@@ -53,9 +53,9 @@ export default function TermsPage() {
             <section>
               <h2 className="text-white text-2xl mb-6 font-serif">Limitations</h2>
               <p>
-                In no event shall Plinth and Co Homes or its suppliers be liable for any damages (including, without limitation,
+                In no event shall Kamal Daxini Realtor or its suppliers be liable for any damages (including, without limitation,
                 damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use
-                the materials on Plinth and Co Homes&apos; website.
+                the materials on Kamal Daxini Realtor&apos;s website.
               </p>
             </section>
 

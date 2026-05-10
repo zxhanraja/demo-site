@@ -31,12 +31,12 @@ export function LegacySection() {
                 Designing timeless spaces<br />with Enduring Values.
               </h2>
               <p className="text-black/70 font-light text-base sm:text-lg mx-auto">
-                For over three decades, {siteConfig.companyName} has established itself as a premier real 
-                estate developer in Vadodara, India. We don't just build structures; we curate 
+                With a focus on exclusivity and personalized service, {siteConfig.companyName} has established itself as a premier 
+                luxury realtor in Vadodara, India. We don't just facilitate transactions; we curate 
                 lifestyles defined by privacy, exclusivity, and uncompromising craft. From 
                 Premium Apartments, Bungalows, Ultra-luxury penthouses to premium 
-                commercial spaces, our legacy is built on trust and a commitment to 
-                transforming the city's skyline.
+                commercial spaces, our expertise is built on trust and a commitment to 
+                finding you the perfect address.
               </p>
             </div>
           </motion.div>
